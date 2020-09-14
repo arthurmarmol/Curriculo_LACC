@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title> </title>
+      <link rel="stylesheet" type="text/css" href="contrate-me-arthur.css">
+   </head>
+   <body>
+      <table id="tabela">
+         <tr id="tabela_topo">
+            <td id="tabela_topo_esquerda">
+               <img src="3x4.jpg" width="150px" height="200px">
+            </td>
+            <td id="tabela_topo_direita">
+               <h1> Me Contrate: </h1>
+               <h6> Resolvo problemas com criatividade e da melhor forma.</h6>
+            </td>
+         </tr>
+      </table>
+      <br>
+      <table id="tabela_2">
+         <tr>
+            <td>
+				<br>
+               <label for="nome"> Nome do interessado: </label> <br>
+               <input type="text" id="nome" class="textbox" /> <br>
+               <label for="empresa"> Nome da empresa: </label> <br>
+               <input type="text" id="empresa" class="textbox" /> <br>
+               <label for="salario"> Salário: </label> <br>
+               <input type="number" id="salario" placeholder="R$ 1500,00" class="textbox" min="1000" max="1500" /> <br>
+               <label for="tipotrab"> Tipo de Trabalho: </label> <br>
+               <select id="tipotrab" class="textbox">
+				  <option value="" disabled selected>Selecione sua opção</option>
+                  <option> Home-Office </option>
+                  <option> Presencial </option>
+                  <option> Misto </option>
+               </select>
+               <br>
+               <p> Tipo de vinculo: </p>
+               <label for="clt"> CLT </label>
+               <input type="radio" id="clt" />
+               <label for="pj"> PJ </label>
+               <input type="radio" id="pj" />
+               <label for="freela"> Freelancer </label>
+               <input type="radio" id="freela" /> <br> <br>
+               <label for="inicio"> Data de Inicio </label> <br>
+               <input type="date" id="inicio" class="textbox" /> <br> <br>
+               <label for="urg"> Preciso de todos os serviços com urgencia!</label>
+               <input type="checkbox" id="urg" /> <br> <br>
+               <input type="button" value="Enviar" class="botao" /> <br> <br>
+			   <a href="index.html"> Acessar o currículo </a>
+               <br>
+               <br>
+            </td>
+         </tr>
+      </table>
+   </body>
+</html>
